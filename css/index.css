@@ -1,0 +1,99 @@
+.main__hero {
+	background-image: url(../img/hero/hero_bg.jpeg);
+	height: 75vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 2rem;
+}
+
+.hero__text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--colour-light-grey);
+
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	width: 100%;
+}
+
+.hero__text h1 {
+	font-size: var(--section-title);
+}
+
+/* End of Hero Section */
+
+/* Start of About Section */
+
+.main__about {
+	color: var(--colour-dark-grey);
+	padding: var(--section-padding);
+}
+
+.about {
+	display: flex;
+}
+
+.about > div {
+	flex: 1 1 50%;
+}
+
+.about__desc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.about__image {
+	width: 100%;
+}
+
+.about__title {
+	text-align: center;
+	font-size: var(--section-title);
+}
+
+/* End of About Section */
+
+.main__services {
+	color: var(--colour-light-grey);
+	background-color: var(--colour-dark-grey);
+	padding: var(--section-padding);
+}
+
+.services__title {
+	text-align: center;
+	font-size: var(--section-title);
+}
+
+.services__cardContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto auto auto auto;
+	gap: 2rem;
+}
+
+.services__card {
+	display: grid;
+	grid-template-rows: subgrid;
+	grid-row: 1/4;
+	justify-content: center;
+	align-items: center;
+
+	justify-items: center;
+
+	text-align: center;
+	color: var(--colour-dark-grey);
+	background-color: var(--colour-light-grey);
+	padding: var(--card-padding);
+	border-radius: 1rem;
+}
+
+.card__img {
+	width: 200px;
+	height: 300px;
+}
