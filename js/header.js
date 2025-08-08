@@ -4,8 +4,8 @@ function generateHeader() {
 	const header = document.createElement('header');
 	header.innerHTML = `
     <nav>
-        <div class="header__logo">
-            <img src="../img/logo/company_logo.png" alt="Company" />
+        <div class="header__logo-container">
+            <img class="header__logo" src="../img/logo/company_logo.png" alt="Company" />
         </div>
 
         <ul class="header__nav-links">

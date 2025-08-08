@@ -2,11 +2,11 @@ header {
 	margin-bottom: 1rem;
 }
 
-header img {
+.header__logo {
 	max-height: 150px;
 }
 
-nav {
+header nav {
 	display: flex;
 	flex-direction: column;
 	padding: 0.5rem;
@@ -19,12 +19,12 @@ li {
 	position: relative;
 }
 
-nav ul {
+header nav ul {
 	display: flex;
 	gap: 3rem;
 }
 
-nav a::after {
+header nav a::after {
 	content: '';
 	background-color: var(--colour-green);
 	height: 1px;
@@ -36,16 +36,16 @@ nav a::after {
 	opacity: 0;
 }
 
-nav a:hover {
+header nav a:hover {
 	color: var(--colour-blue);
 	transition: all 0.5s ease;
 }
 
-nav a:hover::after {
+header nav a:hover::after {
 	opacity: 1;
 	transition: all 0.5s ease;
 }
 
-nav a.active {
+header nav a.active {
 	color: var(--colour-blue);
 }

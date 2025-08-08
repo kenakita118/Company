@@ -97,3 +97,30 @@
 	width: 200px;
 	height: 300px;
 }
+
+/* Gallery */
+.main__gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: var(--section-padding);
+	background-color: var(--colour-light-grey);
+}
+
+.gallery__title {
+	text-align: center;
+	font-size: var(--section-title);
+}
+
+.gallery__photos-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	gap: 5px;
+}
+
+.gallery__photos-container img {
+	width: 100%;
+	height: 100%;
+}

@@ -11,6 +11,9 @@
 		<!-- Header -->
 		<link rel="stylesheet" href="../css/header.css" />
 
+		<!-- Footer -->
+		<link rel="stylesheet" href="../css/footer.css" />
+
 		<!-- Index.css-->
 		<link rel="stylesheet" href="../css/index.css" />
 	</head>
@@ -71,57 +74,49 @@
 
 			<section class="main__services" id="services">
 				<h1 class="services__title">Services</h1>
-				<div class="services__cardContainer">
-					<div class="services__card">
-						<img
-							class="card__img"
-							src="../img/services/janitor.jpg"
-							alt="Janitor"
-						/>
-						<h2 class="card__title">Cleaning</h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-							fugiat non veritatis porro recusandae sapiente modi vero beatae,
-							minima labore commodi molestias qui nesciunt. Atque qui nam
-							voluptatum aliquam cupiditate.
-						</p>
-					</div>
+				<div class="services__cardContainer" id="services__cardContainer">
+					<script src="../js/services.js"></script>
+				</div>
+			</section>
 
-					<div class="services__card">
-						<img
-							class="card__img"
-							src="../img/services/janitor.jpg"
-							alt="Janitor"
-						/>
-						<h2 class="card__title">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Laudantium eum similique eius eligendi odit ullam eaque, accusamus
-							impedit quisquam a, expedita nostrum! Voluptatibus, quam
-							laudantium.
-						</h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-							fugiat non veritatis porro recusandae sapiente modi vero beatae,
-							minima labore commodi molestias qui nesciunt. Atque qui nam
-							voluptatum aliquam cupiditate.
-						</p>
-					</div>
-
-					<div class="services__card">
-						<img
-							class="card__img"
-							src="../img/services/janitor.jpg"
-							alt="Janitor"
-						/>
-						<h2 class="card__title">This is the third picture.</h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
-							labore accusantium! Sequi exercitationem molestias quo voluptates
-							non, nam minima! Laborum fugit molestiae laboriosam quos iste.
-						</p>
-					</div>
+			<section class="main__gallery" id="gallery">
+				<h1 class="gallery__title">Gallery</h1>
+				<div class="gallery__photos-container" id="gallery__photos-container">
+					<script src="../js/gallery.js"></script>
 				</div>
 			</section>
 		</main>
+		<!-- Footer Here -->
+
+		<footer>
+			<div class="footer__logo-container">
+				<img
+					class="footer__logo"
+					src="../img/logo/company_logo.png"
+					alt="Company"
+				/>
+			</div>
+			<nav>
+				<div class="footer__social-media-link-container">
+					<h1>Social Media</h1>
+					<ul class="footer__social-media-links">
+						<li><a href="https://www.facebook.com">Facebook</a></li>
+						<li><a href="https://www.instagram.com">Instagram</a></li>
+						<li><a href="https://www.youtube.com">YouTube</a></li>
+						<li><a href="https://www.wechat.com">WeChat</a></li>
+						<li><a href="https://www.tiktok.com">TikTok</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__social-media-link-container">
+					<h1>Our Info</h1>
+					<ul class="footer__social-media-links">
+						<li><a href="https://www.facebook.com">Telephone</a></li>
+						<li><a href="https://www.instagram.com">Television</a></li>
+						<li><a href="https://www.youtube.com">Address</a></li>
+					</ul>
+				</div>
+			</nav>
+		</footer>
 	</body>
 </html>
